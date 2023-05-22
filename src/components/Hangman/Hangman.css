@@ -1,0 +1,179 @@
+.hangman-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+  
+.hangman-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
+/* .hangman-animation {
+    width: 200px;
+    height: 300px;
+    position: relative;
+    margin-bottom: 2rem;
+  }
+  
+  .hangman-animation .stick-figure {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: transform 0.5s ease;
+  }
+  
+  .hangman-animation .stick-figure.hide {
+    transform: translateX(-50%) translateY(100%);
+  }
+  
+  .hangman-animation .stick-figure .head {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #000;
+  }
+  
+  .hangman-animation .stick-figure .body {
+    width: 5px;
+    height: 100px;
+    background-color: #000;
+    margin: 10px auto;
+  }
+  
+  .hangman-animation .stick-figure .arms {
+    position: relative;
+    height: 50px;
+  }
+  
+  .hangman-animation .stick-figure .arms::before,
+  .hangman-animation .stick-figure .arms::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 5px;
+    background-color: #000;
+  }
+  
+  .hangman-animation .stick-figure .arms::before {
+    right: 0;
+    transform-origin: bottom right;
+    transform: rotate(-45deg);
+  }
+  
+  .hangman-animation .stick-figure .arms::after {
+    left: 0;
+    transform-origin: bottom left;
+    transform: rotate(45deg);
+  }
+  
+  .hangman-animation .stick-figure .legs {
+    position: relative;
+    height: 50px;
+  }
+  
+  .hangman-animation .stick-figure .legs::before,
+  .hangman-animation .stick-figure .legs::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 5px;
+    background-color: #000;
+  }
+  
+  .hangman-animation .stick-figure .legs::before {
+    right: 0;
+    transform-origin: top right;
+    transform: rotate(-45deg);
+  }
+  
+  .hangman-animation .stick-figure .legs::after {
+    left: 0;
+    transform-origin: top left;
+    transform: rotate(45deg);
+  } */
+
+
+
+  .hangman-animation {
+    width: 200px;
+    height: 300px;
+    position: relative;
+    margin-bottom: 2rem;
+  }
+  
+  .hangman-animation .stick-figure {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: transform 0.5s ease;
+  }
+  
+  .hangman-animation .stick-figure .hide {
+    transform: translateX(-50%) translateY(100%);
+  }
+  
+  /* .hangman-animation .stick-figure.arm {
+    position: absolute;
+    width: 60px;
+    height: 5px;
+    background-color: #000;
+    top: 45px;
+  } */
+  
+  /* .hangman-animation .stick-figure.leg {
+    position: absolute;
+    width: 60px;
+    height: 5px;
+    background-color: #000;
+    top: 140px;
+  } */
+  
+ .hangman-animation .stick-figure .head {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #000;
+  }
+  
+  .hangman-animation .stick-figure .body {
+    width: 5px;
+    height: 80px;
+    background-color: #000;
+    margin: 10px auto;
+  }
+  
+  .hangman-animation .stick-figure .left-arm {
+    left: -55px;
+    transform-origin: bottom right;
+    transform: rotate(-45deg);
+  }
+  
+  .hangman-animation .stick-figure .right-arm {
+    right: -55px;
+    transform-origin: bottom left;
+    transform: rotate(45deg);
+  }
+  
+  .hangman-animation .stick-figure .left-leg {
+    left: -55px;
+    transform-origin: top right;
+    transform: rotate(-45deg);
+  }
+  
+  .hangman-animation .stick-figure .right-leg {
+    right: -55px;
+    transform-origin: top left;
+    transform: rotate(45deg);
+  }
